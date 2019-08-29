@@ -6,7 +6,7 @@ resource "aws_route_table" "demo-vpc-route-table" {
     gateway_id = "${aws_internet_gateway.demo-vpc-internet-gateway.id}"
   }
 
-  tags {
+  tags = {
     Name = "demo-vpc-route-table"
   }
 }

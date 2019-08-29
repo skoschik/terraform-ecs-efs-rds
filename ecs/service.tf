@@ -46,7 +46,7 @@ resource "aws_efs_file_system" "wordpress-data" {
   creation_token = "es-persistent-data"
   performance_mode = "generalPurpose"
 
-  tags {
+  tags = {
     Name = "wordpress-data"
   }
 }

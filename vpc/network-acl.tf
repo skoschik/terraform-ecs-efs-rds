@@ -20,7 +20,7 @@ resource "aws_network_acl" "demo-vpc-network-acl" {
         to_port    = 0
     }
 
-    tags {
+    tags = {
         Name = "demo-vpc-network-acl"
     }
 }

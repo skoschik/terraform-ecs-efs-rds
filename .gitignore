@@ -5,3 +5,4 @@ config
 
 # Module directory
 .terraform/
+.terraform.*

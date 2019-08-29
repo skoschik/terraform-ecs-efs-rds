@@ -5,7 +5,7 @@ variable "ecs-cluster-name" {
 
 variable "ecs-key-pair-name" {
     description = "The name for the cluster."
-    default = "demo"
+    default = "ec2-sandbox"
 }
 
 /*====
